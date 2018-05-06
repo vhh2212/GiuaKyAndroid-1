@@ -1,0 +1,34 @@
+{
+  "SinhVien" : {
+    "n14dcat010" : {
+      "age" : 22,
+      "id" : "n14dcat010",
+      "name" : "Ho Hoang Tuan",
+      "point" : 9.899999618530273
+    },
+    "sv1" : {
+      "age" : 18,
+      "id" : "sv1",
+      "name" : "Ho Hoang Tuan",
+      "point" : 8.0600004196167
+    },
+    "sv10" : {
+      "age" : 21,
+      "id" : "sv10",
+      "name" : "Le Khoa",
+      "point" : 7
+    },
+    "sv21" : {
+      "age" : 21,
+      "id" : "sv21",
+      "name" : "Do Quan",
+      "point" : 9.100000381469727
+    },
+    "sv5" : {
+      "age" : 22,
+      "id" : "sv5",
+      "name" : "Ho Hoang Tuan",
+      "point" : 7.900000095367432
+    }
+  }
+}

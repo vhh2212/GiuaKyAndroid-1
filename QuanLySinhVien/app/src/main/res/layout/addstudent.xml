@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="40dp"
+    android:layout_marginLeft="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÊM SINH VIÊN "
+        android:textSize="24dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="serif"
+        android:background="#eff45f"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MSSV"
+        android:id="@+id/edtID"
+
+        />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Họ tên"/>
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tuổi"/>
+    <EditText
+        android:id="@+id/edtPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Điểm TB"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thêm"
+            android:layout_marginRight="20dp"
+            />
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thoát"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

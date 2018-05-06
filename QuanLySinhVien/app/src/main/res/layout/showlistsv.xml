@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="5dp"
+        android:hint="Nhập MSSV"
+        android:id="@+id/edtSearch"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Tìm kiếm"
+        android:textColor="#ff0048"
+        android:id="@+id/btnSearch"/>
+
+    <ListView
+        android:id="@+id/lvSV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="40dp">
+        <Button
+            android:id="@+id/btnShowSV"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textSize="10dp"
+            android:background="#d13340"
+            android:layout_marginRight="5dp"
+            android:text="XEM" />
+
+
+        <Button
+            android:id="@+id/btnAddSV"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textSize="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#da46e7"
+            android:text="THÊM" />
+
+        <Button
+            android:id="@+id/btnEditSV"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textSize="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#73a3c6"
+            android:text="Sửa" />
+        <Button
+            android:id="@+id/btnDelSV"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textSize="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#71d258"
+            android:text="Xóa" />
+
+        <Button
+            android:id="@+id/btnBackToMain"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#e8ed4b"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textSize="10dp"
+            android:text="Thoát" />
+
+    </LinearLayout>
+
+</RelativeLayout>

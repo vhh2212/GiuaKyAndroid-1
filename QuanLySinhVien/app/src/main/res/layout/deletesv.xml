@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XÓA SINH VIÊN"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:fontFamily="serif"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nhập MSSV cần xóa"
+
+        android:id="@+id/edtDeleteID"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XÓA"
+            android:id="@+id/btnDel"
+            android:textSize="12dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnDelBack"
+            android:textSize="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>
